@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-family: Arial;
+}
+
+#array {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bar {
+    width: 20px;
+    margin: 2px;
+    background: blue;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    gap: 3px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background: lightgray;
+}
